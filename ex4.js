@@ -13,3 +13,10 @@ let média = nota1 + nota2 + nota3 + nota4
 let médiaFinal = média/4
 
 alert ("Sua média é " + médiaFinal )
+
+if (médiaFinal > 6){
+    alert ("Você Passou!!!")
+}
+else {
+    alert ("Você é fraco lhe falta nota")
+}
