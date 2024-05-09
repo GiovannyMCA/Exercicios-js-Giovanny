@@ -10,9 +10,7 @@ let número3 = prompt ("Digite um número")
 if (número1 < número2 && número2 < número3){
     alert ("Está em Ordem Crescente")
 }
-// if (número2 < número3){
-//     alert ("Está em Ordem Crescente")
-// }
+
 
 else {
     alert ("Não está em ordem crescente")
