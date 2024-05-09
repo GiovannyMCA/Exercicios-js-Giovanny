@@ -34,3 +34,7 @@ if (dia == 7 ){
     console.log ("Hoje é Domingo")
     alert ("Hoje é Domingo!!")
 }
+
+if (dia > 7){
+    alert ("Esse dia Não existe!!!")
+}
