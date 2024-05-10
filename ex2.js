@@ -10,31 +10,34 @@ if (dia == 1 ){
     console.log ("Hoje é segunda feira")
     alert ("Hoje é segunda feira!!")
 }
-if (dia == 2 ){
+else if (dia == 2 ){
     console.log ("Hoje é Terça feira")
     alert ("Hoje é Terca feira!!")
 }
-if (dia == 3 ){
+else if (dia == 3 ){
     console.log ("Hoje é quarta feira")
     alert ("Hoje é Quarta feira!!")
 }
-if (dia == 4 ){
+else if (dia == 4 ){
     console.log ("Hoje é Quinta feira")
     alert ("Hoje é Quinta feira!!")
 }
-if (dia == 5 ){
+else if (dia == 5 ){
     console.log ("Hoje é Sexta feira")
     alert ("Hoje é Sexta feira!!")
 }
-if (dia == 6 ){
+else if (dia == 6 ){
     console.log ("Hoje é Sabado")
     alert ("Hoje é Sabado!!")
 }
-if (dia == 7 ){
+else if (dia == 7 ){
     console.log ("Hoje é Domingo")
     alert ("Hoje é Domingo!!")
 }
 
-if (dia > 7){
+else if (dia > 7){
     alert ("Esse dia Não existe!!!")
 }
+
+// Sempre colocar else após um if
+// pode ser usado Switch Case, que pode ser melhor

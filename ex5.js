@@ -3,15 +3,18 @@
 // crescente. Exibindo uma mensagem indicando se os números estão em ordem crescente ou
 // não.
 
-let número1 = prompt ("Digite um número")
-let número2 = prompt ("Digite um número")
-let número3 = prompt ("Digite um número")
+let número1 = parseInt (prompt ("Digite um número"))
+let número2 = parseInt (prompt ("Digite um número"))
+let número3 = parseInt (prompt ("Digite um número"))
 
 if (número1 < número2 && número2 < número3){
     alert ("Está em Ordem Crescente")
 }
 
+else if (número1 > número2 && número2 > número3){
+    alert ("Está em ordem Decrescente")
+}
 
 else {
-    alert ("Não está em ordem crescente")
+    alert ("Não está em ordem")
 }
