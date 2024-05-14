@@ -11,5 +11,5 @@ if (!isNaN(numero) && numero >= 0) {
         numero--;
     }
 } else {
-    console.log("Por favor, digite um número válido maior ou igual a 0.");
+    console.log("Digita um número válido, maior ou igual a 0.");
 }
