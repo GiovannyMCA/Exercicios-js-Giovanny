@@ -9,4 +9,4 @@ while (numero <= 100) {
     numero++;
 }
 
-console.log("a soma dos numeros del 1 a 100 sao:", soma);
+console.log("a soma dos numeros del 1 a 100 é:", soma);
