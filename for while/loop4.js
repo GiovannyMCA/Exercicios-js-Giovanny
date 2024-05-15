@@ -1,8 +1,14 @@
 // 4. Faça um programa que imprima na tela a tabuada de um número
 // qualquer escolhido pelo usuário até o 10.
 
-// número escolhido 7
+let num = parseInt (prompt ("Digite um numero  para ver a tabuada"));
 
-for (num = 7; num <= 70; num += 7){
-    console.log (num)
+if (!isNaN(num)){
+
+    for (let cont = 1; cont <= 10; cont++){
+        console.log (num + " X " + cont + " = " + (num*cont));
+    }
+}else {
+    console.log ("Invalido, isso não é um número digite um número")
 }
+
